@@ -39,10 +39,9 @@ body {
   } */
 
   .perfil {
-    
-    float: left;
+    display: block;
+    float:left;
     position: relative;
-    padding-left:5%;
     padding-top: 3%;
     width: 120px;
     height: 120px;
@@ -79,7 +78,6 @@ body {
 
   img{
     background: none;
-    
     border-color: #ffffff;
   }
 
