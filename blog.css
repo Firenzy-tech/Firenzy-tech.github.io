@@ -39,14 +39,15 @@ body {
   } */
 
   .perfil {
+    
     display: block;
     float:left;
     position: relative;
     padding: auto;
-    padding-top: 3%;
+   
     width: 120px;
     height: 120px;
-    transform: translateY(-70px); /* Ajusta la cantidad de desplazamiento vertical */
+    transform: translateY(-30px); /* Ajusta la cantidad de desplazamiento vertical */
     transition: transform 0.3s ease-in-out;
   }
   
@@ -103,7 +104,9 @@ body {
     background: none;
   }
 
-
+  hr{
+    position: relative;
+  }
 
 
     
