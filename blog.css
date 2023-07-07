@@ -133,6 +133,10 @@ body {
     transform: translateY(-15px); /* Ajusta la cantidad de desplazamiento vertical al pasar el cursor */
   }
 
+  footer{
+    display: block;
+  }
+
 
     
   
