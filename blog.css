@@ -5,6 +5,17 @@
   color: #ffffff;
    
 }
+
+
+@media (max-width: 768px) {
+
+  body{
+    background-color: #000000;
+  }
+
+}
+
+
     
 body {
 	background: linear-gradient(-45deg, #02021f, #09022c, #3a3835, #000000);
@@ -114,12 +125,13 @@ body {
 
   .net{
     width: auto;
-    display: flex;
+    display: block;
     display: inline;
     float: left;
     white-space: nowrap;
     padding-left: 10%;
-    padding-top: 5%;
+    padding-top: 15%;
+    margin-top: 20%;
     transform: translateY(-60px); /* Ajusta la cantidad de desplazamiento vertical */
     transition: transform 0.3s ease-in-out;
     
@@ -134,12 +146,18 @@ body {
   }
 
   footer{
+    height: inherit;
+    padding: 15%;
     display: block;
   }
 
   .experience{
-    padding-top: 4%;
+    
+    display: block;
+    
   }
+
+
 
     
   
