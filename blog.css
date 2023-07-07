@@ -119,7 +119,7 @@ body {
     float: left;
     white-space: nowrap;
     padding-left: 10%;
-    padding-top: 25%;
+    padding-top: 5%;
     transform: translateY(-60px); /* Ajusta la cantidad de desplazamiento vertical */
     transition: transform 0.3s ease-in-out;
     
@@ -137,6 +137,9 @@ body {
     display: block;
   }
 
+  .experience{
+    padding-top: 4%;
+  }
 
     
   
