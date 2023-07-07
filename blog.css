@@ -116,6 +116,7 @@ body {
     display: flex;
     display: inline;
     float: left;
+    white-space: nowrap;
     padding-left: 10%;
     padding-top: 25%;
     transform: translateY(-60px); /* Ajusta la cantidad de desplazamiento vertical */
