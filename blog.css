@@ -114,6 +114,7 @@ body {
   .net{
     width: auto;
     display: flex;
+    display: inline;
     float: left;
     padding-left: 10%;
     padding-top: 25%;
