@@ -124,6 +124,10 @@ body {
     
   }
 
+  div{
+    white-space: nowrap;
+  }
+
   .net:hover {
     transform: translateY(-15px); /* Ajusta la cantidad de desplazamiento vertical al pasar el cursor */
   }
