@@ -5,7 +5,9 @@
   color: #ffffff;
    
 }
-
+@media screen {
+  
+}
 
 @media (max-width: 768px) {
 
@@ -36,24 +38,11 @@ body {
 	}
 }
 
-
-
-
-  /* .perfil{
-    display: inline;  
-    
-    float: left;
-    width: 250px;
-    background: none;
-    width: 120px;
-    height: 120px;
-  } */
-
   .perfil {
     
     display: block;
     float:left;
-    position: relative;
+    position:relative;
     padding: auto;
    
     width: 120px;
@@ -70,7 +59,7 @@ body {
   }
   
   h1{
-    display: block;
+    display:flexbox;
     width: auto;
     font-size: 65px;
     text-align: center;
@@ -99,7 +88,6 @@ body {
 
   p{
     white-space:normal;
-    display: flexbox;
     padding-left: 30%;
     block-size: 90px;
     background: none;
@@ -118,11 +106,7 @@ body {
     padding-left: 10%;
     background: none;
   }
-
-  hr{
-    position: relative;
-  }
-
+ 
   .net{
     width: auto;
     display: block;
@@ -137,9 +121,7 @@ body {
     
   }
 
-  div{
-    white-space: nowrap;
-  }
+
 
   .net:hover {
     transform: translateY(-15px); /* Ajusta la cantidad de desplazamiento vertical al pasar el cursor */
