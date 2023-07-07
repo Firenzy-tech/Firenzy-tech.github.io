@@ -87,9 +87,10 @@ body {
   }
 
   p{
-    display: flex;
+    white-space:normal;
+    display: flexbox;
     padding-left: 30%;
-    block-size: auto;
+    block-size: 90px;
     background: none;
   }
   
